@@ -1,2 +1,6 @@
-# webApp
-web app on python and deploy in aws
+# Web application written in python with deployments in AWS.
+
+Stack : 
+- python + django
+- postgres
+- aws
