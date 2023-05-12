@@ -1,6 +1,6 @@
 # Web application written in python with deployments in AWS.
 
-Stack : 
+### Stack : 
 - python + django
 - postgres
 - aws
