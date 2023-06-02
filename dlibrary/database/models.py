@@ -47,6 +47,7 @@ class NotificationType(enum.Enum):
     Reservation_cancelled = 3
     Reservation_expired = 4
 
+# read about enum
 
 class Notification(models.Model):
     sent = models.DateTimeField()
