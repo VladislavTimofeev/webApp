@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1> Home page </h1>
+    <p>privet andrey fsdfsdfsdfsdfdsfdsfdsfsdfsdfdsfsdfsdfsdfewerhgfgjhnczbdfgdfhd df hdgh dfgdfg dg e ger gsd gffsd gdsf gdsf g</p>
+    <button class="btn btn-warning">On home page</button>
+
+    {% for el in values %}
+        <p>{{ el }}</p>
+    {% endfor %}
+</div>
+{% endblock %}
